@@ -1,0 +1,24 @@
+{
+  "name": "apya",
+  "version": "1.0.0",
+  "description": "landing page for Apya",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w",
+    "start": "node server.js"
+  },
+  "author": "Shantanu",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "gsap": "^3.6.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "scrollmagic": "^2.0.8"
+  }
+}
